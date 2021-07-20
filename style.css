@@ -1,0 +1,284 @@
+:root{
+    --primary-color : #edf2fc;
+    --secondary-color : #212121;
+}
+
+.dark-theme{
+    --primary-color : #000106;
+    --secondary-color : #fff;
+}
+
+#icon{
+    margin-bottom: 5px;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background: var(--primary-color) ;
+}
+
+.title{
+    font-family: 'Viga';
+}
+
+.yellow{
+    color: rgb(255,195,6);
+}
+
+.primary-text{
+    font-size: 20px;
+    color: rgb(255,195,6);
+}
+
+.secondary-text{
+    font-size: 15px;
+    color : var(--secondary-color);
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+/* navbar */
+.navbar{
+    border-bottom: 1px solid rgb(211, 208, 208);
+    padding: 5px 40px;
+    background: var(--primary-color);
+}
+
+.navbar .navbar-brand{
+    font-size: 32px;
+    font-family: 'Viga', sans-serif;
+    text-shadow:  0 1px 3px rgba(0, 0, 0, 0.5);
+    color: var(--secondary-color);
+}
+
+.navbar-light .navbar-brand:hover{
+    color: rgb(255,195,6);
+}
+
+.uil-estate{
+    background-color: rgb(255,195,6);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.tombol{
+    border-radius: 20px;
+}
+
+.navbar .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+/* main */
+.main{
+    padding-top: 100px;
+}
+
+.main-text{
+    font-family: 'Viga';
+    text-align: center;
+    color: var(--secondary-color) ;
+}
+
+.main-text h1{
+    font-size: 30px;
+    color: var(--secondary-color) ;
+}
+
+.main-text p{
+    font-size: 12px;
+    color: var(--secondary-color) ;
+}
+
+
+.main-photo img{
+    width: 100px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+/* about-me*/
+
+.about-para p{
+    font-size: 12px;
+    text-align: center;
+    color: var(--secondary-color) ;
+}
+
+.about-para .uil{
+    color: rgb(3, 156, 131);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.about-para .stat{
+    font-family: 'Viga',sans-serif;
+    color: var(--secondary-color) ;
+}
+
+/* skill-area */
+.card{
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.card-col{
+    margin-top: 10px;
+}
+
+.card h5{
+    color: rgb(255,195,6);
+    font-family: 'Viga',sans-serif;
+}
+
+.card{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.4s all ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-text{
+    text-align: justify;
+}
+
+/* Contact */
+.social-media h4{
+    font-size: 18px;
+    color: rgb(255,195,6);
+    font-family: 'Viga',sans-serif;
+}
+
+.social-media p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: var(--secondary-color) ;
+}
+
+.social-media i{
+    margin-right: 6px;
+    color: rgb(97, 139, 255);
+    font-size: 20px;
+}
+
+.social-media i:hover{
+    font-size: 35px;
+    color : rgb(185, 201, 247);
+}
+
+/* copyright */
+footer{
+    background-color: #ffd700;
+    font-weight: bold;
+}
+
+footer h4{
+    font-size: 12px;
+    color: var(--secondary-color) ;
+}
+
+footer h5{
+    font-size: 8px;
+    color: var(--secondary-color) ;
+}
+
+@media (min-width: 992px){
+    /* global */
+    section{
+        margin-bottom: 80px;
+    }
+
+    .primary-text{
+        font-size: 50px;
+    }
+    
+    .secondary-text{
+        font-size: 30px;
+    }
+
+    #icon{
+        margin-top: 7px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    
+    /* main */
+    .main{
+        margin-bottom: 60px;
+        padding-top: 70px;
+    }
+    
+    .main-text{
+        margin-top: 170px;
+        text-align: left;
+    }
+    
+    .main-text h1{
+        font-size: 70px;
+    }
+    
+    .main-text p{
+        font-size: 20px;
+    }
+    
+    .main-photo img{
+        width: 340px;
+        height: 430px;
+        border-radius: 9px;
+        margin-top: 60px;
+    }
+
+    .about-para p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+
+    /* about */
+    .about-para p{
+        font-size: 18px;
+    }
+
+    .about-para .uil{
+        font-size: 30px;
+    } 
+    
+    /* skill-area */
+    .card-col{
+        margin: 10px;
+    }
+
+    /* social media */
+    .social-media h4{
+        font-size: 30px;
+    }
+    
+    .social-media p{
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    .social-media i{
+        margin-right: 6px;
+        font-size: 35px;
+    }
+
+    /* copyright */
+    footer h4{
+        font-size: 18px;
+    }
+    
+    footer h5{
+        font-size: 12px;
+    }
+}
